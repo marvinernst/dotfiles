@@ -1,5 +1,7 @@
 "use strict"
 module.exports = {
+    css: `.splitpane_divider { background-color: red !important; }`,
+
     config: {
         updateChannel: 'stable',
         fontSize: 12,
@@ -22,6 +24,8 @@ module.exports = {
         showHamburgerMenu: '',
         showWindowControls: '',
         padding: '12px 14px',
+        css: `.splitpane_divider { background-color: #555a !important; }`,
+
         colors: {
             black: '#000000',
             red: '#C51E14',
@@ -66,7 +70,9 @@ module.exports = {
         'hyperborder',
         'gitrocket',
         'space-pull',
-        "hyper-one-dark"
+        "hyper-one-dark",
+        "hyper-pane",
+        "hyper-pmndrs"
     ],
     localPlugins: [],
     keymaps: {},
